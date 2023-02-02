@@ -25,7 +25,7 @@ Video Lectures
 For Developers
 ============
 You can also see either [Python](https://github.com/starlangsoftware/TurkishFrameNet-Py), [Java](https://github.com/starlangsoftware/TurkishFrameNet),
-[C++](https://github.com/starlangsoftware/TurkishFrameNet-CPP), [C#](https://github.com/starlangsoftware/TurkishFrameNet-CS), 
+[C++](https://github.com/starlangsoftware/TurkishFrameNet-CPP), [C](https://github.com/starlangsoftware/TurkishFrameNet-C), [C#](https://github.com/starlangsoftware/TurkishFrameNet-CS), 
 [Cython](https://github.com/starlangsoftware/TurkishFrameNet-Cy), or [Swift](https://github.com/starlangsoftware/TurkishFrameNet-Swift) repository.
 
 ## Requirements
