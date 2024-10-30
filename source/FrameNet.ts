@@ -3,7 +3,7 @@ import {XmlDocument} from "nlptoolkit-xmlparser/dist/XmlDocument";
 
 export class FrameNet {
 
-    private frames: Array<Frame>
+    private readonly frames: Array<Frame>
 
     /**
      * A constructor of {@link FrameNet} class which reads all frame files inside the files2.txt file. For each

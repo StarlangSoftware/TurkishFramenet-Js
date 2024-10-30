@@ -12,7 +12,7 @@ describe('FrameNetTest', function() {
             for (let i = 0; i < frameNet.size(); i++){
                 count += frameNet.getFrame(i).lexicalUnitSize()
             }
-            assert.strictEqual(8489, count)
+            assert.strictEqual(8493, count)
         });
         it('testFrameElementSize', function() {
             let count = 0
