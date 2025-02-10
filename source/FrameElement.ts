@@ -2,7 +2,7 @@ export class FrameElement {
 
     private readonly frameElementType: string
     private readonly frame: string
-    private readonly id: string
+    private id: string
 
     /**
      * A constructor of {@link FrameElement} class which takes frameElement string which is in the form of frameElementType$id
@@ -54,6 +54,16 @@ export class FrameElement {
      */
     getId(): string{
         return this.id
+    }
+
+    /**
+     * Mutator for id.
+     *
+     * @param id New id.
+     * @return id.
+     */
+    setId(id: string){
+        this.id = id
     }
 
     /**

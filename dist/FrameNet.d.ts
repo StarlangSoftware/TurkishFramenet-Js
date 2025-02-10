@@ -1,6 +1,6 @@
 import { Frame } from "./Frame";
 export declare class FrameNet {
-    private frames;
+    private readonly frames;
     /**
      * A constructor of {@link FrameNet} class which reads all frame files inside the files2.txt file. For each
      * filename inside that file, the constructor creates a FrameNet.Frame and puts in inside the frames {@link ArrayList}.

@@ -1,7 +1,7 @@
 export declare class FrameElement {
     private readonly frameElementType;
     private readonly frame;
-    private readonly id;
+    private id;
     /**
      * A constructor of {@link FrameElement} class which takes frameElement string which is in the form of frameElementType$id
      * and parses this string into frameElementType and id. If the frameElement string does not contain '$' then the
@@ -30,6 +30,13 @@ export declare class FrameElement {
      * @return id.
      */
     getId(): string;
+    /**
+     * Mutator for id.
+     *
+     * @param id New id.
+     * @return id.
+     */
+    setId(id: string): void;
     /**
      * toString converts an {@link FrameElement} to a string. If the frameElementType is "NONE" returns only "NONE", otherwise
      * it returns argument string which is in the form of frameElementType$id
