@@ -1,8 +1,7 @@
 {
   "name": "nlptoolkit-framenet",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Turkish FrameNet Library",
-  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
